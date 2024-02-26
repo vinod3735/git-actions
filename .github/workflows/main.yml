@@ -1,5 +1,9 @@
 name: github_actions_file
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+      
   
 
 jobs:
