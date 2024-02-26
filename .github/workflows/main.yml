@@ -1,0 +1,10 @@
+name: github_actions_file
+on: [push]
+  
+
+jobs:
+  git_hub_actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo hello world
+      - run: echo " Hello world"
